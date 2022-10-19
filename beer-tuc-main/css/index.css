@@ -1,0 +1,80 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  
+  background: #FDC830;  
+  background: -webkit-linear-gradient(to right, #F37335, #FDC830);  
+  background: linear-gradient(to right, #F37335, #FDC830); 
+  overflow-x: hidden; 
+}
+
+.logo-responsive{
+  width: 50px;
+}
+
+.logo-desktop {
+  width: 200px;
+}
+
+.hamburguer-button .hamburguer-icon{  
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0);
+  position: fixed;
+  top: 0;
+  z-index: 250000;
+  width: 100%;
+}
+
+.nav-item-login {
+  outline: 1px solid #ffffff;
+  border-radius: 30px;
+  padding: 0 10px;
+}
+
+
+
+.carrusel-container {
+  min-height: 60vh;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.carousel-inner-customizable { height: inherit; }
+.carousel-item-customizable { height: inherit; }
+.carousel-figure-customizable { height: inherit; }
+.carousel-img-customizable { height: inherit; }
+.carousel-control-prev-custumizable { height: 60vh; }
+.carousel-control-next-custumizable { height: 60vh; }
+
+
+.img-profile {
+  border-radius: 50%;
+}
+
+
+.seccion-comentarios {
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .carrusel-container { 
+    min-height: 100vh;
+    height: 100vh;
+  }
+  .carousel-inner-customizable { height: inherit; }
+  .carousel-item-customizable { height: inherit; }
+  .carousel-figure-customizable { height: inherit; }
+  .carousel-img-customizable { 
+    height: inherit;
+    width: 100vw;
+    max-width: 100vw;
+  }
+  .carousel-control-prev-custumizable { height: 100vh; }
+  .carousel-control-next-custumizable { height: 100vh; }
+}
+

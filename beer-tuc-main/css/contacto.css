@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-register {
+  padding: 30px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.controls {
+  background-color: #24303c;
+  border-radius: 4px;
+  border: 1px solid #fc9906;
+}
+
+.controls:focus {
+  background-color: #24303c;
+  border-radius: 4px;
+  border: 1px solid #fc9906;
+}
+
+.mapa-google {
+  width: 350px;
+  height: 500px;
+}
+
+.contacto-espacio {
+  padding-top: 120px;
+}
+
+.logo-responsive{
+  width: 50px;
+}
+
+.logo-desktop {
+  width: 200px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0);
+  position: fixed;
+  top: 0;
+  z-index: 250000;
+  width: 100%;
+}
+
+.nav-item-login {
+  outline: 1px solid #ffffff;
+  border-radius: 30px;
+  padding: 0 10px;
+}
+
+.img-profile {
+  border-radius: 50%;
+}

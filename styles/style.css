@@ -1,0 +1,40 @@
+.bg-delnavbar {
+  background-color: rgb(172, 192, 226);
+}
+
+.logoatleta {
+  height: 20px;
+  width: 20px;
+}
+
+
+.banneratleta {
+  height: 350px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.title-maraton-indep {
+  color: white;
+}
+
+.bi-redes-sociales:hover {
+ color: black;
+}
+
+body {
+  background-color: rgb(223, 223, 223);
+}
+
+.img-campeon {
+  height: 500px;
+}
+
+.colorfooter {
+  color: white;
+}
+
+.colorfooter:hover {
+  color: white;
+}
+

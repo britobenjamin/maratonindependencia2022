@@ -1,0 +1,22 @@
+.animacion-subrayado {
+  position: relative;
+  display: block;
+}
+
+.animacion-subrayado::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: #DA4300;
+  transition: all .5s;
+}
+
+.animacion-subrayado:hover::after {
+  width: 100%;
+}
+
+
+/***************************************************************************************/
